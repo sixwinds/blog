@@ -25,10 +25,14 @@ title: 图片加载掩饰导致 jquery domready 延时响应
 
 虽然requirejs 是动态加载 js 的，但是 requirejs 本身并不是，而我们的 cdn 又支持合并 js 的请求
 
-譬如：`http://static-web.b5m.com/public/js/??jquery-1.9.1.min.js,jquery-window.js,imglazyload.min.js?_a=1&v=2015412015043014435154`
+譬如：
+```sh
+http://static-web.b5m.com/public/js/??jquery-1.9.1.min.js,jquery-window.js,imglazyload.min.js?_a=1&v=2015412015043014435154
+```
 
 那么我们页面上的 requirejs 可以这么贴：
 
-`<script type="text/javascript" id="requirejs" data-main="/home/js/test.js" src="http://CDN/public/js/??require-min.js,require-domready.js?_a=1"></script>`
-
+```sh
+<script type="text/javascript" id="requirejs" data-main="/home/js/test.js" src="http://CDN/public/js/??require-min.js,require-domready.js?_a=1"></script>`
+```
 在require-domready.js中我们主动注册 document 的 DOMContentLoaded ，并且在此事件触发时标记 DOMContentLoaded 已触发，而其他业务代码在用到 $() 的时候先去判断这个标记是否存在，如果存在则可以直接写要执行的代码，如果没有的话再去调用 $()，我们可以把这个逻辑判断包装成我们自己的ready函数，这样就能解决该死的 x.png 和 $() 的问题了。
