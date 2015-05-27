@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import "base";
+
+$widthSidebar:140px;
+$widthContent:720px;
+
+.wrapper {
+	width: $widthContent + $widthContent;
+	margin: 0 auto;
+}
+
+.side-bar {
+	@extend %fl;
+	width: $widthSidebar;
+}
