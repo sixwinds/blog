@@ -1,0 +1,177 @@
+/**
+ * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
+ * http://cssreset.com
+ * Copyright 2012 Yahoo! Inc. All rights reserved.
+ * http://yuilibrary.com/license/
+ */
+/*
+	TODO will need to remove settings on HTML since we can't namespace it.
+	TODO with the prefix, should I group by selector or property for weight savings?
+*/
+html {
+  color: #000;
+  background: #FFF; }
+
+/*
+	TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+	TODO test putting a class on HEAD.
+		- Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset,
+img {
+  border: 0; }
+
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol,
+ul {
+  list-style: none; }
+
+caption,
+th {
+  text-align: left; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before,
+q:after {
+  content: ''; }
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal; }
+
+/* to preserve line-height and selector appearance */
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+  *font-size: 100%; }
+
+/*because legend doesn't inherit in IE */
+legend {
+  color: #000; }
+
+/* YUI CSS Detection Stamp */
+a {
+  text-decoration: none; }
+
+body {
+  font: 12px/1.5 'Microsoft YaHei'; }
+
+.wrapper {
+  zoom: 1; }
+  .wrapper:before, .wrapper:after {
+    content: "";
+    display: table; }
+  .wrapper:after {
+    clear: both;
+    overflow: hidden; }
+
+.side-bar, .content {
+  float: left; }
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto; }
+
+.side-bar {
+  width: 140px; }
+
+.content {
+  width: 720px; }
+
+.sling {
+  position: relative;
+  left: 5px;
+  height: 300px;
+  width: 10px;
+  margin: 0 auto;
+  border-left: 1px solid #aaa;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.07), inset -1px 0 5px rgba(0, 0, 0, 0.07); }
+
+.nav {
+  border-radius: 6px;
+  background-color: #414141;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden; }
+  .nav li {
+    border-bottom: 1px solid #2c2c2c;
+    box-shadow: inset 0 1px 0 rgba(225, 225, 225, 0.1); }
+  .nav a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px; }
+
+/*# sourceMappingURL=ironman.css.map */

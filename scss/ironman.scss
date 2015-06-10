@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import "parts/reset";
+@import "parts/base";
+
+$widthSidebar:140px;
+$widthContent:720px;
+
+.wrapper {
+	width: $widthSidebar + $widthContent;
+	margin: 0 auto;
+	@extend %cf;
+}
+
+.side-bar {
+	@extend %fl;
+	width: $widthSidebar;
+}
+.content {
+	@extend %fl;
+	width: $widthContent;
+}
+
+@import "parts/im_sling";
+@import "parts/im_nav";
