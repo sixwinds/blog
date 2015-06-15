@@ -1,4 +1,4 @@
-markdown: kramdown
+markdown: redcarpet
 
-kramdown:
-	input: GFM
+redcarpet: 
+	extensions: ['fenced_code_blocks']
