@@ -1,7 +1,7 @@
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
+markdown: redcarpet
+
+redcarpet: 
+	extensions: ['fenced_code_blocks'] 
 
 kramdown:
-  input: GFM
+	input: GFM
