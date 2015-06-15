@@ -30,13 +30,13 @@ title: 图片加载掩饰导致 jquery domready 延时响应
 
 譬如：
 
-```
+```html
 http://static-web.b5m.com/public/js/??jquery-1.9.1.min.js,jquery-window.js,imglazyload.min.js?_a=1&v=2015412015043014435154
 ```
 
 那么我们页面上的 requirejs 可以这么贴：
 
-```
+```html
 <script type="text/javascript" id="requirejs" data-main="/home/js/test.js" src="http://CDN/public/js/??require-min.js,require-domready.js?_a=1"></script>`
 ```
 

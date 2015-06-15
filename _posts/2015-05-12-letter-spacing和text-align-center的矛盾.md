@@ -12,7 +12,7 @@ letter-spacing和text-align:center的矛盾
 
 我们可以用在文字之间加&nbsp;，但是这种做法一来没有办法精确的控制文字间的间距，二来如果文字很多那么加空格的加死了。我们的css中有letter-spacing可以指定文字间的间距。
 
-```markup
+```html
 <style>
 	button {
 		letter-spacing:4px;
@@ -36,7 +36,7 @@ letter-spacing和text-align:center的矛盾
 ### 3 解决方案
 那么我们可以通过添加padding-left或者text-indent来在文字的头可以营造一个间隔来达到使整个文字居中的效果
 
-```markup
+```html
 <style>
 	button {
 		letter-spacing:4px;
