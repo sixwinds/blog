@@ -9,7 +9,7 @@ excerpt: 一个由于Hugepage导致进程占用物理内存过多的问题的案
 
 # 1 问题
 
-业务同样的程序跑在TDocker、XEN，占用的内存却相差很大。
+~~业务同样的程序跑在TDocker、XEN，占用的内存却相差很大。~~
 
 TDocker：
 ![](/assets/2015-04-30-hugepage-problem1.png)
