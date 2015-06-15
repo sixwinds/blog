@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ironman
 title: Hugepage导致进程占用物理内存过多的问题
 date: 2015-04-30 20:39:30
 categories: Linux

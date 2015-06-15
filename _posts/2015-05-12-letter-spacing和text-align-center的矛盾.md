@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ironman
 title: letter-spacing和text-align:center的矛盾
 ---
 letter-spacing和text-align:center的矛盾

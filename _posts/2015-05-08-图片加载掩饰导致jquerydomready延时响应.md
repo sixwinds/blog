@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ironman
 title: 图片加载掩饰导致 jquery domready 延时响应
 ---
 图片加载掩饰导致 jquery domready 延时响应
