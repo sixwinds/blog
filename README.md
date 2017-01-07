@@ -1,5 +1,9 @@
 # Blog
 
+[编写「可读」代码的实践 - 接口篇](https://github.com/sixwinds/blog/issues/13) - 2017-01-07
+
+[React 奇技淫巧 - defaultValue 和虚拟 dom diff 算法实现表单重置](https://github.com/sixwinds/blog/issues/12) - 2016-12-08
+
 [SPA项目经验总结](https://github.com/sixwinds/blog/issues/11) - 2016-12-02
 
 [React更新视图过程](https://github.com/sixwinds/blog/issues/10) - 2016-11-25
