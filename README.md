@@ -1,5 +1,7 @@
 # Blog
 
+[Firefox 动态修改 favicon 不显示问题](https://github.com/sixwinds/blog/issues/14) - 2017-01-13
+
 [编写「可读」代码的实践 - 接口篇](https://github.com/sixwinds/blog/issues/13) - 2017-01-07
 
 [React 奇技淫巧 - defaultValue 和虚拟 dom diff 算法实现表单重置](https://github.com/sixwinds/blog/issues/12) - 2016-12-08
