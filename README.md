@@ -1,5 +1,7 @@
 # Blog
 
+[这个接口设计得到底合理不合理？](https://github.com/sixwinds/blog/issues/16) - 2017-01-25
+
 [HTTP 协议的缓存机制概述](https://github.com/sixwinds/blog/issues/15) - 2017-01-22
 
 [Firefox 动态修改 favicon 不显示问题](https://github.com/sixwinds/blog/issues/14) - 2017-01-13
