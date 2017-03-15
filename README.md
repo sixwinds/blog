@@ -1,6 +1,8 @@
 # Blog
 **首发于[简书](http://www.jianshu.com/u/ae72e83a4e6f)，这里作为一个 Blog 的备份（目录标注的日期是文章发在简书的日期）。**
-
+<br/>
+<br/>
+<br/>
 [5人以下团队 leader 职责(构想草图)](https://github.com/sixwinds/blog/issues/21) - 2017-03-11
 
 [移动H5页面开发多屏适配 - 方案篇](https://github.com/sixwinds/blog/issues/20) - 2017-03-01
