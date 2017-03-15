@@ -1,4 +1,13 @@
 # Blog
+**首发于[简书](http://www.jianshu.com/u/ae72e83a4e6f)，这里作为一个 Blog 的备份（目录标注的日期是文章发在简书的日期）。**
+
+[5人以下团队 leader 职责(构想草图)](https://github.com/sixwinds/blog/issues/21) - 2017-03-11
+
+[移动H5页面开发多屏适配 - 方案篇](https://github.com/sixwinds/blog/issues/20) - 2017-03-01
+
+[移动H5页面开发多屏适配 - viewport和像素篇](https://github.com/sixwinds/blog/issues/19) - 2017-03-01
+
+[css-loader 对图片的处理说明 | 笔记](https://github.com/sixwinds/blog/issues/18) - 2017-02-23
 
 [防止网页在微信中下拉露黑底方案调研](https://github.com/sixwinds/blog/issues/17) - 2017-02-21
 
