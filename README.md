@@ -3,6 +3,10 @@
 <br/>
 <br/>
 <br/>
+[从人如何思考看程序员解决问题的思路 - 论原理的重要性](https://github.com/sixwinds/blog/issues/23) - 2017-03-20
+
+[不深入只浅出ES6 Promise | 笔记](https://github.com/sixwinds/blog/issues/22) - 2017-03-15
+
 [5人以下团队 leader 职责(构想草图)](https://github.com/sixwinds/blog/issues/21) - 2017-03-11
 
 [移动H5页面开发多屏适配 - 方案篇](https://github.com/sixwinds/blog/issues/20) - 2017-03-01
